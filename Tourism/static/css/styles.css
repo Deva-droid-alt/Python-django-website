@@ -1,0 +1,45 @@
+h1{
+    font-size: 50px;
+    color: rgb(104, 64, 14);
+    font-style: normal;
+    font-family: cursive;
+}
+body{
+    background-color: rgb(206, 198, 214);
+    width: 100%;
+    background-image: url('/static/images/bg.jpeg'); /* Use relative path to the static directory */
+    background-size: cover;
+}
+header{
+    color: rgb(240, 233, 233);
+    
+}
+main{
+    color: brown;
+    text-align: center;
+    background: gainsboro; /* Box background color to hide the image */
+    width: 50%; /* Adjust box width */
+    margin: 50px auto; /* Center the box horizontally and add space at the top */
+    padding: 20px; /* Add inner spacing */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for a floating effect */
+    max-width: 800px; 
+
+}
+footer p{
+    text-align: center;
+    padding: 10px 0px;
+    bottom: 0px;
+    position: absolute;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    background-color: black;
+    padding: 30px 20px;
+
+}
+.navbar a {
+    color: aliceblue;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism website</title>
+    <link rel="stylesheet" href=" {% static 'css/styles.css' %}">
+    
+</head>
+<body>
+    <header>
+        <ul class="navbar">
+            <li><a href="{% url 'trivandrum' %}">Trivandrum</a></li>
+            <li><a href="{% url 'kollam' %}">Kollam</a></li>
+            <li><a href="{% url 'kottayam' %}">Kottayam</a></li>
+            <li><a href="{% url 'ekm' %}">Ekm</a></li>
+            <li><a href="{% url 'thrissur' %}">Thrissur</a></li>
+        </ul>
+    </header> 
+
+    
+    <main>
+        <div class="text-box">
+            <h1>Welcome to our website</h1>
+            <h2>Get insights into the famous districts of Kerala</h2>
+            <p>Explore the beauty</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tourism Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
